@@ -1,13 +1,7 @@
-import React, { useState } from 'react';
-import {
-  StyleSheet,
-  View,
-  Text,
-  Button,
-} from 'react-native';
+import React, {useState} from 'react';
+import {StyleSheet, View, Text, Button} from 'react-native';
 
 const App = () => {
-
   return (
     <View style={styles.body}>
       <View style={styles.view1}>
@@ -26,25 +20,31 @@ const App = () => {
 const styles = StyleSheet.create({
   body: {
     flex: 1,
-    flexDirection: 'column',
+    flexDirection: 'row',
     backgroundColor: '#0000ff',
-    alignItems: 'stretch',
+    alignItems: 'center',
     justifyContent: 'center',
   },
   view1: {
     flex: 1,
+    // width: 100,
+    // height: 100,
     backgroundColor: '#00ffff',
     alignItems: 'center',
     justifyContent: 'center',
   },
   view2: {
-    flex: 1,
+    flex: 4,
+    // width: 100,
+    // height: 100,
     backgroundColor: '#ff00ff',
     alignItems: 'center',
     justifyContent: 'center',
   },
   view3: {
     flex: 1,
+    // width: 100,
+    // height: 100,
     backgroundColor: '#ffff00',
     alignItems: 'center',
     justifyContent: 'center',
