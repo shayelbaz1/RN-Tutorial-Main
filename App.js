@@ -28,7 +28,7 @@ const App = () => {
   return (
     <ImageBackground
       style={styles.body}
-      source={{ uri: 'https://cdn.pixabay.com/photo/2013/07/12/12/35/texture-145968_960_720.png' }}
+      source={{ uri: 'https://cdn.pixabay.com/photo/2013/07/12/12/35/texture-145968_960_720.png' }}//uri
     >
       <Modal
         visible={showWarning}
