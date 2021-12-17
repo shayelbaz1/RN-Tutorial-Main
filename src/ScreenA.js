@@ -51,6 +51,6 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 40,
     margin: 10,
-    fontFamily: 'arial',
+    fontFamily: 'indie',
   },
 });
